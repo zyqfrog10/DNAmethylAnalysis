@@ -1,4 +1,3 @@
-#!/opt/common/CentOS_7/R/R-3.6.0/bin/Rscript
 
 ## ---------------------------
 ##
