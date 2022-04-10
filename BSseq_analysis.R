@@ -1,4 +1,3 @@
-#!/opt/common/CentOS_7/R/R-3.6.0/bin/Rscript
 
 ## ---------------------------
 ##
@@ -19,7 +18,7 @@
 ##
 ## ---------------------------
 
-source("/home/zhany/YingCodes/general/methylAnalysis/BSseq_functions.R")
+source("BSseq_functions.R")
 message("\n***BSseq_analysis.R\n\n")
 
 ## Parsing the command line ###
