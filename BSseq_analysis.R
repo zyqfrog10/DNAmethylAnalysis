@@ -149,6 +149,8 @@ library(ggcorrplot)
 library(rafalib)
 library(factoextra)
 library(ggpubr)
+library(httr)
+set_config(config(ssl_verifypeer = 0L)) # solve the biomart connection problem that may happen sometimes
 library(annotatr)
 numCores <- 4
 #register(MulticoreParam(workers = numCores), default = TRUE)
